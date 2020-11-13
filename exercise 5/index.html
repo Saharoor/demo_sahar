@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initalal-scale=1.0"> 
+                                                                           
+    <title>Document</title>
+   
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300;400&display=swap');
+                
+ }
+         
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+         */      
+
+        h1{
+            font-family: 'Oswald',sans-serif;
+        }
+
+        p{
+            font-family: 'Open Sans',sans-serif;
+        }
+        
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+     .btn{
+            display: inline-block;
+            background: #100;
+            padding: 15px;
+            border-radius: 30px;
+            color: #fff;
+            text-decoration: none;
+            font-family: palatino;
+        
+        }
+        .btn:hover{
+            color:#f00;
+            background: #000;
+        }
+        
+        *{box-sizing: border-box;
+        font-family: palatino;
+        }
+        
+        #hero{
+            clear: both;
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+            padding-top:30px; 
+        }
+        
+        @keyframes fader{
+            0%{
+             opacity: 1;   
+            }
+            100%
+            
+        }
+        
+        #Herocontent{
+            animation: 2s fader linear 5;
+            background: rgba(0,0,0,.5);
+            max-width: 850px;
+            padding: 20px;
+            color: #fff;
+        }
+        
+        .btn2{
+            display: block;
+            background: #f00;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        @keyframes btnani{
+            0%{
+                background: #f00;
+               color: #fff; 
+                transform: scale(1,1);
+            }
+            50%{
+                color: #f00;
+               background: #fff;
+                 transform: scale(1,5,1,5);
+                
+                100%{
+                    color: #f00;
+                background: #fff;
+                   transform: scale(1,1);
+                }
+                }
+            }
+        .btn2:hover{
+            animation: 3s btnani ease-in-out;
+            color: #f00;
+            background: #fff;
+            
+        }
+        .gallery{
+            padding-right: 10px;
+            margin-bottom: 10px;
+        }
+    
+       
+        
+        .col{
+            float: left; 
+
+        }   
+        .c8{
+            width: 8.33333333333333%;
+        }
+
+        .c16{
+            width: 16.6666666666667%;
+        }
+        .c25{
+            width: 25%;
+        }
+
+        .c33{
+            width: 33.3333333333333%;
+        }
+        .c41{
+            width: 41.6666666666667%;
+        }
+        .c50{
+            width: 50%;
+        }
+        .c58{
+            width: 58.3333333333333%;
+        }
+        .c66{
+            width: 66.6666666666667%;
+        }
+
+        .c75{
+            width: 75%;
+        }
+
+        .c83{
+            width: 83.3333333333333%;
+        }
+        .c91{
+            width: 91.6666666666667%;
+        }
+        .c100{
+            width: 100%;
+        }
+        
+        @media screen and (max-width:600px){
+            .c33, .c50{
+                width:100%;
+
+            }
+
+        }
+    </style>
+    </head>
+
+<body>
+ 
+  
+    <div class="container">
+        <h1>Hello</h1>
+        <div class="col c50">
+            <p>Use this random sentence generator to create random sentences that can help you brainstorm, come up with new story ideas, or song lyrics.
+
+                The tool chooses nouns, verbs and adjectives from a hand-picked list of thousands of the most evocative words and generates a random sentence to help inspire you.
+            </p>
+            <a href="#" class="btn"><i class="fa fa-envelope-o"></i> Email</a>
+        </div>
+        <div class="col c50">
+            <img src="img/img_chania.jpg" width="100%">
+        </div>
+    </div>
+    
+    
+ <div id="hero">
+    <div id="Herocontent">
+     <h2>Headline</h2>
+        
+        
+        <p>Use this random sentence generator to create random sentences that can help you brainstorm,</p>
+        
+        <p><a href="#" class="btn2">Register Today</a></p>
+        <div>
+            <img src="img/IMG_9075.jpg" class="gallery col c33">
+            <img src="img/IMG_9075.jpg" class="gallery col c33">
+            <img src="img/IMG_9075.jpg" class="gallery col c33">
+        </div>
+        
+        
+     </div>
+    
+    </div>
+       
+</body>
+
+</html>
